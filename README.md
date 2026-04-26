@@ -1,10 +1,8 @@
 # TCGA Breast Cancer Clinical Analysis
 
-A medical data analysis project exploring survival patterns in breast cancer patients using the TCGA-BRCA clinical dataset.
-
 ## Project Overview
 
-This project analyses clinical data from 990 breast cancer patients from The Cancer Genome Atlas (TCGA) Breast Cancer (BRCA) dataset. The analysis explores relationships between cancer stage, patient age, treatment type, and survival outcomes.
+This project analyses clinical data from 990 breast cancer patients from The Cancer Genome Atlas (TCGA) Breast Cancer (BRCA) dataset. TCGA is a large-scale public database funded by the US government that contains clinical, genomic, and treatment data from thousands of real cancer patients across America. The goal of this analysis is to explore relationships between cancer stage, patient age, treatment type, and survival outcomes — the kind of foundational analysis required before building any AI model for cancer research.
 
 ## Dataset
 
@@ -12,6 +10,33 @@ This project analyses clinical data from 990 breast cancer patients from The Can
 - **Dataset:** TCGA-BRCA Clinical Data
 - **Patients analysed:** 990 breast cancer patients
 - **Variables used:** Age, vital status, cancer stage, survival days, treatment type
+
+## Visualisations
+
+### Age Distribution
+![Age Distribution](images/age_distribution.png)
+
+Breast cancer predominantly affects patients aged 45-70, with peak diagnosis occurring around age 60-65. Very few cases occur below age 35.
+
+### Vital Status
+![Vital Status](images/vital_status.png)
+
+89% of patients in this dataset are still alive at their last follow up, reflecting effective treatment outcomes and relatively early stage diagnoses in this cohort.
+
+### Cancer Stage Distribution
+![Cancer Stage Distribution](images/cancer_stage_distribution.png)
+
+The majority of patients were diagnosed at Stage IIA and Stage IIB, indicating most cancers were detected at a moderately early stage. Very few patients presented with Stage IV disease.
+
+### Survival Days by Cancer Stage
+![Survival by Stage](images/survival_by_stage.png)
+
+There is a clear trend showing that patients diagnosed at earlier stages survive significantly longer. Stage I patients survived on average 4.9 years compared to only 2.2 years for Stage IIIC patients.
+
+### Treatment Types
+![Treatment Types](images/treatment_types.png)
+
+Surgery is the most common treatment followed by Radiation Therapy and Chemotherapy. More specialised treatments like Immunotherapy and Targeted Molecular Therapy are rarely used in this cohort.
 
 ## Key Findings
 
@@ -35,14 +60,6 @@ This project analyses clinical data from 990 breast cancer patients from The Can
 - Surgery was the most common treatment
 - Standard treatments show similar survival rates (~1200 days)
 
-## Visualisations
-
-1. Age distribution of breast cancer patients
-2. Vital status — alive vs dead
-3. Distribution of cancer stages
-4. Survival days by cancer stage
-5. Most common treatment types
-
 ## Tools and Libraries
 
 - Python 3
@@ -60,4 +77,4 @@ This project analyses clinical data from 990 breast cancer patients from The Can
 
 ## Author
 
-Ravindu Denuwan | 2026
+Ravindu Denuwan | PhD Preparation Project | 2026
