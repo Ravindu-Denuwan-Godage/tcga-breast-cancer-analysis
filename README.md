@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-This project analyses clinical data from 990 breast cancer patients from The Cancer Genome Atlas (TCGA) Breast Cancer (BRCA) dataset. TCGA is a large-scale public database funded by the US government that contains clinical, genomic, and treatment data from thousands of real cancer patients across America. The goal of this analysis is to explore relationships between cancer stage, patient age, treatment type, and survival outcomes — the kind of foundational analysis required before building any AI model for cancer research.
+This project analyses clinical data from 990 breast cancer patients from The Cancer Genome Atlas (TCGA) Breast Cancer (BRCA) dataset. TCGA is a large scale public database funded by the US government that contains clinical, genomic, and treatment data from thousands of real cancer patients across America. The goal of this analysis is to explore relationships between cancer stage, patient age, treatment type, and survival outcomes, the kind of foundational analysis required before building any AI model for cancer research.
 
 ## Dataset
 
-- **Source:** The Cancer Genome Atlas (TCGA) — GDC Data Portal
+- **Source:** The Cancer Genome Atlas (TCGA) - GDC Data Portal
 - **Dataset:** TCGA-BRCA Clinical Data
 - **Patients analysed:** 990 breast cancer patients
 - **Variables used:** Age, vital status, cancer stage, survival days, treatment type
@@ -63,10 +63,10 @@ Surgery is the most common treatment followed by Radiation Therapy and Chemother
 ## Tools and Libraries
 
 - Python 3
-- Pandas — data loading and cleaning
-- NumPy — numerical calculations
-- Matplotlib — data visualisation
-- Seaborn — statistical visualisation
+- Pandas: data loading and cleaning
+- NumPy: numerical calculations
+- Matplotlib: data visualisation
+- Seaborn: statistical visualisation
 
 ## How to Run
 
@@ -77,4 +77,4 @@ Surgery is the most common treatment followed by Radiation Therapy and Chemother
 
 ## Author
 
-Ravindu Denuwan | PhD Preparation Project | 2026
+Ravindu Denuwan | 2026
